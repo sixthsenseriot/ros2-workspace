@@ -1,0 +1,229 @@
+[0.028s] Invoking command in '/home/starchdev/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/starchdev/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/starchdev/ros2_ws/install/my_robot_interfaces
+[0.284s] -- The C compiler identification is GNU 13.3.0
+[0.460s] -- The CXX compiler identification is GNU 13.3.0
+[0.496s] -- Detecting C compiler ABI info
+[0.678s] -- Detecting C compiler ABI info - done
+[0.697s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.698s] -- Detecting C compile features
+[0.702s] -- Detecting C compile features - done
+[0.720s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.925s] -- Detecting CXX compile features
+[0.926s] -- Detecting CXX compile features - done
+[0.940s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.220s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.452s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.701s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.974s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.913s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.177s] -- Found PythonExtra: /usr/bin/python3  
+[6.107s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.190s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.252s] -- Added test 'lint_cmake' to check CMake code style
+[6.259s] -- Added test 'xmllint' to check XML markup files
+[6.266s] -- Configuring done (6.2s)
+[6.328s] -- Generating done (0.0s)
+[6.349s] -- Build files have been written to: /home/starchdev/ros2_ws/build/my_robot_interfaces
+[6.363s] Invoked command in '/home/starchdev/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/starchdev/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/starchdev/ros2_ws/install/my_robot_interfaces
+[6.366s] Invoking command in '/home/starchdev/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_robot_interfaces -- -j2 -l2
+[6.468s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.488s] [  2%] Built target ament_cmake_python_copy_my_robot_interfaces
+[7.053s] [  2%] Built target my_robot_interfaces__rosidl_generator_type_description
+[7.081s] running egg_info
+[7.082s] creating my_robot_interfaces.egg-info
+[7.133s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.177s] writing my_robot_interfaces.egg-info/PKG-INFO
+[7.178s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[7.178s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[7.178s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[7.389s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[7.391s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[7.486s] [  5%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[7.664s] [  5%] Built target my_robot_interfaces__cpp
+[7.685s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.432s] [ 11%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o[0m
+[8.537s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[8.657s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[8.716s] [ 20%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[8.790s] [ 20%] Built target my_robot_interfaces__rosidl_generator_c
+[8.811s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.257s] [ 26%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[9.927s] [ 29%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[10.009s] [ 29%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[10.039s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.546s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[11.536s] [ 38%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.775s] [ 38%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[11.794s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.266s] [ 44%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[12.339s] [ 47%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.398s] [ 47%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[12.417s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.883s] [ 52%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[12.974s] [ 55%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[13.059s] [ 55%] Built target my_robot_interfaces__rosidl_typesupport_c
+[13.079s] [ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.633s] [ 61%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[14.615s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.861s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.881s] [ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.338s] [ 70%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[15.936s] [ 73%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[16.106s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[16.145s] [ 73%] Built target my_robot_interfaces
+[16.186s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.789s] [ 76%] Built target my_robot_interfaces__py
+[16.828s] [ 79%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[17.096s] [ 82%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so[0m
+[17.178s] [ 82%] Built target my_robot_interfaces__rosidl_generator_py
+[17.218s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.424s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[17.484s] [ 88%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[17.522s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.721s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[17.783s] [ 94%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[17.821s] [ 97%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.017s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so[0m
+[18.081s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[18.104s] Invoked command in '/home/starchdev/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_robot_interfaces -- -j2 -l2
+[18.123s] Invoking command in '/home/starchdev/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/starchdev/ros2_ws/build/my_robot_interfaces
+[18.142s] -- Install configuration: ""
+[18.143s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[18.143s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[18.144s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[18.144s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[18.145s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[18.145s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[18.146s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[18.147s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[18.147s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[18.148s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[18.148s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[18.149s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.150s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[18.150s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[18.151s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[18.152s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[18.153s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[18.153s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[18.153s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[18.154s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.154s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[18.155s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[18.156s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.156s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.157s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[18.157s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[18.157s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[18.158s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[18.158s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[18.159s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.159s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[18.160s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.161s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[18.162s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[18.162s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[18.165s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[18.165s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[18.166s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[18.167s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[18.167s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[18.167s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[18.168s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[18.168s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.168s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[18.169s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[18.169s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[18.169s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[18.170s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.170s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.171s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.172s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.172s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[18.172s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[18.173s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[18.173s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[18.174s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[18.175s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.175s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.176s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[18.177s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[18.177s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[18.178s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[18.179s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[18.179s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[18.180s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[18.180s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[18.181s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[18.181s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[18.182s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.182s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.183s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[18.183s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[18.184s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[18.184s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[18.185s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[18.185s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[18.186s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[18.186s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[18.187s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[18.282s] Listing '/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[18.282s] Compiling '/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[18.283s] Listing '/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[18.283s] Compiling '/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...
+[18.283s] Compiling '/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...
+[18.296s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[18.297s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[18.297s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[18.298s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[18.298s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[18.299s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[18.299s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[18.300s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[18.300s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[18.300s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[18.300s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[18.301s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[18.301s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[18.301s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[18.301s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[18.302s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[18.302s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[18.302s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[18.302s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[18.303s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[18.303s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[18.303s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[18.304s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[18.304s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.304s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[18.305s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.305s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.305s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.306s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[18.306s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.306s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[18.306s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.307s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.308s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.309s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.309s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[18.309s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.309s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[18.310s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[18.310s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.310s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.310s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.310s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.311s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.311s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.311s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.311s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[18.311s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[18.312s] -- Installing: /home/starchdev/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[18.316s] Invoked command in '/home/starchdev/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/starchdev/ros2_ws/build/my_robot_interfaces
