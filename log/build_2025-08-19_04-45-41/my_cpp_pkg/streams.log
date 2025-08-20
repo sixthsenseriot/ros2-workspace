@@ -1,0 +1,27 @@
+[0.088s] Invoking command in '/home/starchdev/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[0.855s] [ 50%] Built target test_node
+[0.984s] [ 75%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[24.122s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[24.980s] [100%] Built target number_publisher
+[25.009s] Invoked command in '/home/starchdev/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[25.032s] Invoking command in '/home/starchdev/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/starchdev/ros2_ws/build/my_cpp_pkg
+[25.054s] -- Install configuration: ""
+[25.057s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node
+[25.058s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[25.063s] -- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[25.064s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[25.066s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[25.066s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[25.066s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[25.068s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[25.068s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[25.068s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[25.069s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[25.069s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[25.069s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[25.071s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[25.072s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[25.072s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[25.074s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[25.074s] -- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[25.079s] Invoked command in '/home/starchdev/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/starchdev/ros2_ws/build/my_cpp_pkg

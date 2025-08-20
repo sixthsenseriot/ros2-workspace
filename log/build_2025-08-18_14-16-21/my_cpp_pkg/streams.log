@@ -1,0 +1,56 @@
+[0.027s] Invoking command in '/home/starchdev/ros2_ws/build/my_cpp_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[0.094s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.521s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.584s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.808s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.811s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.944s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.087s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.347s] Error parsing '/home/starchdev/ros2_ws/src/my_cpp_pkg/package.xml':
+[7.530s] Traceback (most recent call last):
+[7.530s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[7.530s]     root = dom.parseString(data)
+[7.531s]            ^^^^^^^^^^^^^^^^^^^^^
+[7.531s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[7.536s]     return expatbuilder.parseString(string)
+[7.536s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[7.536s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[7.536s]     return builder.parseString(string)
+[7.538s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[7.538s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[7.538s]     parser.Parse(string, True)
+[7.538s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 13, column 30
+[7.544s] 
+[7.545s] During handling of the above exception, another exception occurred:
+[7.546s] 
+[7.547s] Traceback (most recent call last):
+[7.549s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[7.549s]     main()
+[7.549s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[7.549s]     raise e
+[7.549s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[7.549s]     package = parse_package_string(
+[7.550s]               ^^^^^^^^^^^^^^^^^^^^^
+[7.551s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[7.552s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[7.552s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/starchdev/ros2_ws/src/my_cpp_pkg/package.xml':
+[7.552s] The manifest contains invalid XML:
+[7.552s] not well-formed (invalid token): line 13, column 30
+[7.636s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[7.636s]   execute_process(/usr/bin/python3
+[7.636s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[7.636s]   /home/starchdev/ros2_ws/src/my_cpp_pkg/package.xml
+[7.636s]   /home/starchdev/ros2_ws/build/my_cpp_pkg/ament_cmake_core/package.cmake)
+[7.637s]   returned error code 1
+[7.637s] Call Stack (most recent call first):
+[7.637s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[7.637s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[7.637s]   CMakeLists.txt:48 (ament_package)
+[7.638s] 
+[7.638s] [0m
+[7.638s] -- Configuring incomplete, errors occurred!
+[7.650s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[7.654s] Invoked command in '/home/starchdev/ros2_ws/build/my_cpp_pkg' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_cpp_pkg -- -j2 -l2

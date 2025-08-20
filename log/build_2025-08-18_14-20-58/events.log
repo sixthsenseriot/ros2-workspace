@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001785] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001864] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001906] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.017659] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.018958] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.020156] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starchdev/ros2_ws/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/starchdev/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'starchdev', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/starchdev/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': 'firefox', 'HOME': '/home/starchdev', 'OLDPWD': '/home/starchdev/ros2_ws/src/my_py_pkg', 'DESKTOP_SESSION': 'lxqt', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'COLCON_PREFIX_PATH': '/home/starchdev/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'starchdev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'starchdev', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': '2', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_MENU_PREFIX': 'lxqt-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/starchdev/.local/share', 'XDG_CONFIG_HOME': '/home/starchdev/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'lxqt', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_py_pkg:/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1685d6b3-1ad0-4443-a7ff-cf2cb1ca46fc', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'lxqt', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/starchdev/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-lxqt:/etc/xdg:/etc:/usr/share', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/lxqt:/usr/share/gnome:/home/starchdev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.074909] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099593] (-) TimerEvent: {}
+[0.200043] (-) TimerEvent: {}
+[0.300494] (-) TimerEvent: {}
+[0.400849] (-) TimerEvent: {}
+[0.484864] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500998] (-) TimerEvent: {}
+[0.541613] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.560703] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.584188] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601112] (-) TimerEvent: {}
+[0.613971] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701284] (-) TimerEvent: {}
+[0.743890] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.746596] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801465] (-) TimerEvent: {}
+[0.866320] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901636] (-) TimerEvent: {}
+[0.999639] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[1.001750] (-) TimerEvent: {}
+[1.102047] (-) TimerEvent: {}
+[1.202471] (-) TimerEvent: {}
+[1.245130] (my_cpp_pkg) StderrLine: {'line': b"Error parsing '/home/starchdev/ros2_ws/src/my_cpp_pkg/package.xml':\n"}
+[1.302659] (-) TimerEvent: {}
+[1.403959] (-) TimerEvent: {}
+[1.505020] (-) TimerEvent: {}
+[1.605510] (-) TimerEvent: {}
+[1.707117] (-) TimerEvent: {}
+[1.807614] (-) TimerEvent: {}
+[1.908049] (-) TimerEvent: {}
+[2.008507] (-) TimerEvent: {}
+[2.109742] (-) TimerEvent: {}
+[2.210850] (-) TimerEvent: {}
+[2.311295] (-) TimerEvent: {}
+[2.411871] (-) TimerEvent: {}
+[2.512450] (-) TimerEvent: {}
+[2.614094] (-) TimerEvent: {}
+[2.715877] (-) TimerEvent: {}
+[2.816444] (-) TimerEvent: {}
+[2.917000] (-) TimerEvent: {}
+[3.017585] (-) TimerEvent: {}
+[3.119220] (-) TimerEvent: {}
+[3.219843] (-) TimerEvent: {}
+[3.321473] (-) TimerEvent: {}
+[3.422241] (-) TimerEvent: {}
+[3.523866] (-) TimerEvent: {}
+[3.624523] (-) TimerEvent: {}
+[3.725099] (-) TimerEvent: {}
+[3.825710] (-) TimerEvent: {}
+[3.926303] (-) TimerEvent: {}
+[4.026882] (-) TimerEvent: {}
+[4.127861] (-) TimerEvent: {}
+[4.228323] (-) TimerEvent: {}
+[4.329796] (-) TimerEvent: {}
+[4.430240] (-) TimerEvent: {}
+[4.531837] (-) TimerEvent: {}
+[4.633570] (-) TimerEvent: {}
+[4.735507] (-) TimerEvent: {}
+[4.836308] (-) TimerEvent: {}
+[4.936793] (-) TimerEvent: {}
+[5.037522] (-) TimerEvent: {}
+[5.138075] (-) TimerEvent: {}
+[5.238655] (-) TimerEvent: {}
+[5.339410] (-) TimerEvent: {}
+[5.440789] (-) TimerEvent: {}
+[5.541323] (-) TimerEvent: {}
+[5.642801] (-) TimerEvent: {}
+[5.744534] (-) TimerEvent: {}
+[5.845173] (-) TimerEvent: {}
+[5.946316] (-) TimerEvent: {}
+[6.047328] (-) TimerEvent: {}
+[6.149221] (-) TimerEvent: {}
+[6.249860] (-) TimerEvent: {}
+[6.351063] (-) TimerEvent: {}
+[6.452735] (-) TimerEvent: {}
+[6.553286] (-) TimerEvent: {}
+[6.654859] (-) TimerEvent: {}
+[6.755308] (-) TimerEvent: {}
+[6.856870] (-) TimerEvent: {}
+[6.876019] (my_cpp_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.876340] (my_cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[6.878095] (my_cpp_pkg) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[6.878333] (my_cpp_pkg) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.878491] (my_cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString\n'}
+[6.878647] (my_cpp_pkg) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[6.878828] (my_cpp_pkg) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.878987] (my_cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[6.879138] (my_cpp_pkg) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[6.879288] (my_cpp_pkg) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.879437] (my_cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[6.879585] (my_cpp_pkg) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[6.880023] (my_cpp_pkg) StderrLine: {'line': b'xml.parsers.expat.ExpatError: not well-formed (invalid token): line 13, column 30\n'}
+[6.880283] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[6.880436] (my_cpp_pkg) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[6.880585] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[6.880745] (my_cpp_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.880910] (my_cpp_pkg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[6.881061] (my_cpp_pkg) StderrLine: {'line': b'    main()\n'}
+[6.881209] (my_cpp_pkg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[6.881360] (my_cpp_pkg) StderrLine: {'line': b'    raise e\n'}
+[6.881507] (my_cpp_pkg) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[6.881657] (my_cpp_pkg) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[6.881829] (my_cpp_pkg) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[6.881988] (my_cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[6.882138] (my_cpp_pkg) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[6.882288] (my_cpp_pkg) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/starchdev/ros2_ws/src/my_cpp_pkg/package.xml':\n"}
+[6.882439] (my_cpp_pkg) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[6.882589] (my_cpp_pkg) StderrLine: {'line': b'not well-formed (invalid token): line 13, column 30\n'}
+[6.957025] (-) TimerEvent: {}
+[6.971665] (my_cpp_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[6.972024] (my_cpp_pkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[6.972189] (my_cpp_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[6.972388] (my_cpp_pkg) StderrLine: {'line': b'  /home/starchdev/ros2_ws/src/my_cpp_pkg/package.xml\n'}
+[6.972542] (my_cpp_pkg) StderrLine: {'line': b'  /home/starchdev/ros2_ws/build/my_cpp_pkg/ament_cmake_core/package.cmake)\n'}
+[6.972694] (my_cpp_pkg) StderrLine: {'line': b'  returned error code 1\n'}
+[6.972872] (my_cpp_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.973032] (my_cpp_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[6.973181] (my_cpp_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[6.973329] (my_cpp_pkg) StderrLine: {'line': b'  CMakeLists.txt:48 (ament_package)\n'}
+[6.973476] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[6.973626] (my_cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.973797] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.988177] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[6.992756] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[6.993460] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[7.004539] (-) EventReactorShutdown: {}

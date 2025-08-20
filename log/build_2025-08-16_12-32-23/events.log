@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.001939] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.002013] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.002057] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099678] (-) TimerEvent: {}
+[0.200096] (-) TimerEvent: {}
+[0.300486] (-) TimerEvent: {}
+[0.400915] (-) TimerEvent: {}
+[0.501355] (-) TimerEvent: {}
+[0.601779] (-) TimerEvent: {}
+[0.702203] (-) TimerEvent: {}
+[0.802578] (-) TimerEvent: {}
+[0.902961] (-) TimerEvent: {}
+[1.003371] (-) TimerEvent: {}
+[1.104433] (-) TimerEvent: {}
+[1.204859] (-) TimerEvent: {}
+[1.305198] (-) TimerEvent: {}
+[1.406278] (-) TimerEvent: {}
+[1.506681] (-) TimerEvent: {}
+[1.607102] (-) TimerEvent: {}
+[1.702658] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/starchdev/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/starchdev/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/starchdev/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'starchdev', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/starchdev/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': 'firefox', 'HOME': '/home/starchdev', 'OLDPWD': '/home/starchdev/ros2_ws/src', 'DESKTOP_SESSION': 'lxqt', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'COLCON_PREFIX_PATH': '/home/starchdev/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'starchdev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'starchdev', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': '8', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_MENU_PREFIX': 'lxqt-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/starchdev/.local/share', 'XDG_CONFIG_HOME': '/home/starchdev/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'lxqt', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_py_pkg:/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:b71df6ac-3e6c-4530-af96-bc8827c5b9c7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'lxqt', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/starchdev/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-lxqt:/etc/xdg:/etc:/usr/share', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/lxqt:/usr/share/gnome:/home/starchdev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/starchdev/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.708968] (-) TimerEvent: {}
+[1.809567] (-) TimerEvent: {}
+[1.909950] (-) TimerEvent: {}
+[2.011105] (-) TimerEvent: {}
+[2.111497] (-) TimerEvent: {}
+[2.211890] (-) TimerEvent: {}
+[2.250801] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.291741] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[2.295296] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[2.295657] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[2.296267] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[2.296547] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[2.312009] (-) TimerEvent: {}
+[2.385429] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.387458] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.387812] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.387988] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.389121] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/first_node.py -> /home/starchdev/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.390609] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/node_oop_template.py -> /home/starchdev/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.391189] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/second_node.py -> /home/starchdev/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[2.391551] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.406016] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.412103] (-) TimerEvent: {}
+[2.449804] (my_py_pkg) StdoutLine: {'line': b'copying /home/starchdev/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/first_node.py -> /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[2.450349] (my_py_pkg) StdoutLine: {'line': b'copying /home/starchdev/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/node_oop_template.py -> /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[2.450576] (my_py_pkg) StdoutLine: {'line': b'copying /home/starchdev/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/second_node.py -> /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[2.451576] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/first_node.py to first_node.cpython-312.pyc\n'}
+[2.452540] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/node_oop_template.py to node_oop_template.cpython-312.pyc\n'}
+[2.453204] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/second_node.py to second_node.cpython-312.pyc\n'}
+[2.454062] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.454762] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.499607] (my_py_pkg) StdoutLine: {'line': b"removing '/home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.500177] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[2.502167] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.512226] (-) TimerEvent: {}
+[2.612613] (-) TimerEvent: {}
+[2.712959] (-) TimerEvent: {}
+[2.772301] (my_py_pkg) StdoutLine: {'line': b'Installing test_node_first script to /home/starchdev/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.775959] (my_py_pkg) StdoutLine: {'line': b'Installing test_node_second script to /home/starchdev/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.776552] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/starchdev/ros2_ws/build/my_py_pkg/install.log'\n"}
+[2.813120] (-) TimerEvent: {}
+[2.849151] (my_py_pkg) CommandEnded: {'returncode': 0}
+[2.869527] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.870629] (-) EventReactorShutdown: {}

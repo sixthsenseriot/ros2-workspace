@@ -1,0 +1,52 @@
+[0.036s] Invoking command in '/home/starchdev/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/starchdev/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/starchdev/ros2_ws/install/my_cpp_pkg
+[0.292s] -- The C compiler identification is GNU 13.3.0
+[0.464s] -- The CXX compiler identification is GNU 13.3.0
+[0.509s] -- Detecting C compiler ABI info
+[0.706s] -- Detecting C compiler ABI info - done
+[0.728s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.731s] -- Detecting C compile features
+[0.733s] -- Detecting C compile features - done
+[0.752s] -- Detecting CXX compiler ABI info
+[0.951s] -- Detecting CXX compiler ABI info - done
+[0.972s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.973s] -- Detecting CXX compile features
+[0.974s] -- Detecting CXX compile features - done
+[0.987s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.274s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.500s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.588s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.623s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.890s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.897s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.096s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.147s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.380s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.612s] -- Added test 'lint_cmake' to check CMake code style
+[2.623s] -- Added test 'xmllint' to check XML markup files
+[2.626s] -- Configuring done (2.5s)
+[2.635s] -- Generating done (0.0s)
+[2.641s] -- Build files have been written to: /home/starchdev/ros2_ws/build/my_cpp_pkg
+[2.658s] Invoked command in '/home/starchdev/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/starchdev/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/starchdev/ros2_ws/install/my_cpp_pkg
+[2.660s] Invoking command in '/home/starchdev/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[2.752s] Invoked command in '/home/starchdev/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/starchdev/ros2_ws/build/my_cpp_pkg -- -j2 -l2
+[2.788s] Invoking command in '/home/starchdev/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/starchdev/ros2_ws/build/my_cpp_pkg
+[2.811s] -- Install configuration: ""
+[2.812s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.813s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.814s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.814s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.815s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.818s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.818s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.819s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.823s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.823s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.824s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.825s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.825s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.826s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.826s] -- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.830s] Invoked command in '/home/starchdev/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/starchdev/ros2_ws/build/my_cpp_pkg

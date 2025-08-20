@@ -1,0 +1,295 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000243] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.002012] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.033773] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.036396] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.037838] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/starchdev/ros2_ws/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/starchdev/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'starchdev', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/starchdev/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': 'firefox', 'HOME': '/home/starchdev', 'OLDPWD': '/home/starchdev/ros2_ws/src/my_cpp_pkg', 'DESKTOP_SESSION': 'lxqt', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'COLCON_PREFIX_PATH': '/home/starchdev/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'starchdev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'starchdev', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': '2', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_MENU_PREFIX': 'lxqt-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/starchdev/.local/share', 'XDG_CONFIG_HOME': '/home/starchdev/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'lxqt', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_py_pkg:/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5c3796ae-16ca-47c6-881d-5a37138dfe0c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'lxqt', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/starchdev/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-lxqt:/etc/xdg:/etc:/usr/share', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/lxqt:/usr/share/gnome:/home/starchdev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.099750] (-) TimerEvent: {}
+[0.200233] (-) TimerEvent: {}
+[0.241839] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target test_node\n'}
+[0.295960] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o\x1b[0m\n'}
+[0.300429] (-) TimerEvent: {}
+[0.400883] (-) TimerEvent: {}
+[0.501342] (-) TimerEvent: {}
+[0.601820] (-) TimerEvent: {}
+[0.702264] (-) TimerEvent: {}
+[0.802730] (-) TimerEvent: {}
+[0.903169] (-) TimerEvent: {}
+[1.003628] (-) TimerEvent: {}
+[1.104096] (-) TimerEvent: {}
+[1.204540] (-) TimerEvent: {}
+[1.304995] (-) TimerEvent: {}
+[1.405441] (-) TimerEvent: {}
+[1.505911] (-) TimerEvent: {}
+[1.606419] (-) TimerEvent: {}
+[1.706875] (-) TimerEvent: {}
+[1.807360] (-) TimerEvent: {}
+[1.908944] (-) TimerEvent: {}
+[2.009413] (-) TimerEvent: {}
+[2.109863] (-) TimerEvent: {}
+[2.210294] (-) TimerEvent: {}
+[2.310739] (-) TimerEvent: {}
+[2.412234] (-) TimerEvent: {}
+[2.513810] (-) TimerEvent: {}
+[2.615364] (-) TimerEvent: {}
+[2.715807] (-) TimerEvent: {}
+[2.817393] (-) TimerEvent: {}
+[2.918954] (-) TimerEvent: {}
+[3.020521] (-) TimerEvent: {}
+[3.122067] (-) TimerEvent: {}
+[3.222519] (-) TimerEvent: {}
+[3.322958] (-) TimerEvent: {}
+[3.424271] (-) TimerEvent: {}
+[3.524711] (-) TimerEvent: {}
+[3.626228] (-) TimerEvent: {}
+[3.726697] (-) TimerEvent: {}
+[3.828280] (-) TimerEvent: {}
+[3.932060] (-) TimerEvent: {}
+[4.034583] (-) TimerEvent: {}
+[4.135437] (-) TimerEvent: {}
+[4.236371] (-) TimerEvent: {}
+[4.337934] (-) TimerEvent: {}
+[4.438414] (-) TimerEvent: {}
+[4.538890] (-) TimerEvent: {}
+[4.639386] (-) TimerEvent: {}
+[4.739869] (-) TimerEvent: {}
+[4.840362] (-) TimerEvent: {}
+[4.940827] (-) TimerEvent: {}
+[5.041260] (-) TimerEvent: {}
+[5.141698] (-) TimerEvent: {}
+[5.242113] (-) TimerEvent: {}
+[5.342667] (-) TimerEvent: {}
+[5.444273] (-) TimerEvent: {}
+[5.545875] (-) TimerEvent: {}
+[5.647459] (-) TimerEvent: {}
+[5.749055] (-) TimerEvent: {}
+[5.849497] (-) TimerEvent: {}
+[5.951026] (-) TimerEvent: {}
+[6.051536] (-) TimerEvent: {}
+[6.154073] (-) TimerEvent: {}
+[6.254497] (-) TimerEvent: {}
+[6.354957] (-) TimerEvent: {}
+[6.456552] (-) TimerEvent: {}
+[6.558142] (-) TimerEvent: {}
+[6.659725] (-) TimerEvent: {}
+[6.760212] (-) TimerEvent: {}
+[6.860681] (-) TimerEvent: {}
+[6.962250] (-) TimerEvent: {}
+[7.062711] (-) TimerEvent: {}
+[7.168073] (-) TimerEvent: {}
+[7.268539] (-) TimerEvent: {}
+[7.369015] (-) TimerEvent: {}
+[7.470582] (-) TimerEvent: {}
+[7.572113] (-) TimerEvent: {}
+[7.672549] (-) TimerEvent: {}
+[7.773020] (-) TimerEvent: {}
+[7.873469] (-) TimerEvent: {}
+[7.975071] (-) TimerEvent: {}
+[8.075578] (-) TimerEvent: {}
+[8.177119] (-) TimerEvent: {}
+[8.277579] (-) TimerEvent: {}
+[8.379178] (-) TimerEvent: {}
+[8.479639] (-) TimerEvent: {}
+[8.580078] (-) TimerEvent: {}
+[8.680533] (-) TimerEvent: {}
+[8.781000] (-) TimerEvent: {}
+[8.881526] (-) TimerEvent: {}
+[8.982941] (-) TimerEvent: {}
+[9.083393] (-) TimerEvent: {}
+[9.183843] (-) TimerEvent: {}
+[9.284292] (-) TimerEvent: {}
+[9.313004] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[9.384468] (-) TimerEvent: {}
+[9.484896] (-) TimerEvent: {}
+[9.585395] (-) TimerEvent: {}
+[9.687177] (-) TimerEvent: {}
+[9.787650] (-) TimerEvent: {}
+[9.871558] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target number_publisher\n'}
+[9.887831] (-) TimerEvent: {}
+[9.927869] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[9.988035] (-) TimerEvent: {}
+[10.088432] (-) TimerEvent: {}
+[10.188876] (-) TimerEvent: {}
+[10.289352] (-) TimerEvent: {}
+[10.389829] (-) TimerEvent: {}
+[10.490291] (-) TimerEvent: {}
+[10.591219] (-) TimerEvent: {}
+[10.691686] (-) TimerEvent: {}
+[10.793405] (-) TimerEvent: {}
+[10.893854] (-) TimerEvent: {}
+[10.995454] (-) TimerEvent: {}
+[11.097072] (-) TimerEvent: {}
+[11.197520] (-) TimerEvent: {}
+[11.299098] (-) TimerEvent: {}
+[11.400697] (-) TimerEvent: {}
+[11.502295] (-) TimerEvent: {}
+[11.603973] (-) TimerEvent: {}
+[11.705523] (-) TimerEvent: {}
+[11.807084] (-) TimerEvent: {}
+[11.907525] (-) TimerEvent: {}
+[12.009075] (-) TimerEvent: {}
+[12.109519] (-) TimerEvent: {}
+[12.210126] (-) TimerEvent: {}
+[12.311247] (-) TimerEvent: {}
+[12.412789] (-) TimerEvent: {}
+[12.513201] (-) TimerEvent: {}
+[12.613656] (-) TimerEvent: {}
+[12.715257] (-) TimerEvent: {}
+[12.816851] (-) TimerEvent: {}
+[12.917331] (-) TimerEvent: {}
+[13.018893] (-) TimerEvent: {}
+[13.120480] (-) TimerEvent: {}
+[13.222062] (-) TimerEvent: {}
+[13.323641] (-) TimerEvent: {}
+[13.424111] (-) TimerEvent: {}
+[13.524584] (-) TimerEvent: {}
+[13.625044] (-) TimerEvent: {}
+[13.725522] (-) TimerEvent: {}
+[13.825989] (-) TimerEvent: {}
+[13.926467] (-) TimerEvent: {}
+[14.026919] (-) TimerEvent: {}
+[14.127379] (-) TimerEvent: {}
+[14.227830] (-) TimerEvent: {}
+[14.328317] (-) TimerEvent: {}
+[14.429870] (-) TimerEvent: {}
+[14.532675] (-) TimerEvent: {}
+[14.634807] (-) TimerEvent: {}
+[14.737075] (-) TimerEvent: {}
+[14.842083] (-) TimerEvent: {}
+[14.942541] (-) TimerEvent: {}
+[15.042999] (-) TimerEvent: {}
+[15.143487] (-) TimerEvent: {}
+[15.243935] (-) TimerEvent: {}
+[15.345549] (-) TimerEvent: {}
+[15.447107] (-) TimerEvent: {}
+[15.547575] (-) TimerEvent: {}
+[15.649192] (-) TimerEvent: {}
+[15.749666] (-) TimerEvent: {}
+[15.851279] (-) TimerEvent: {}
+[15.952884] (-) TimerEvent: {}
+[16.054478] (-) TimerEvent: {}
+[16.156093] (-) TimerEvent: {}
+[16.257685] (-) TimerEvent: {}
+[16.359236] (-) TimerEvent: {}
+[16.460792] (-) TimerEvent: {}
+[16.561284] (-) TimerEvent: {}
+[16.661721] (-) TimerEvent: {}
+[16.762189] (-) TimerEvent: {}
+[16.862657] (-) TimerEvent: {}
+[16.963105] (-) TimerEvent: {}
+[17.064683] (-) TimerEvent: {}
+[17.165160] (-) TimerEvent: {}
+[17.265631] (-) TimerEvent: {}
+[17.368086] (-) TimerEvent: {}
+[17.468548] (-) TimerEvent: {}
+[17.569032] (-) TimerEvent: {}
+[17.670631] (-) TimerEvent: {}
+[17.771096] (-) TimerEvent: {}
+[17.871567] (-) TimerEvent: {}
+[17.972052] (-) TimerEvent: {}
+[18.072513] (-) TimerEvent: {}
+[18.173250] (-) TimerEvent: {}
+[18.273665] (-) TimerEvent: {}
+[18.374107] (-) TimerEvent: {}
+[18.474574] (-) TimerEvent: {}
+[18.576099] (-) TimerEvent: {}
+[18.677640] (-) TimerEvent: {}
+[18.779150] (-) TimerEvent: {}
+[18.879625] (-) TimerEvent: {}
+[18.981249] (-) TimerEvent: {}
+[19.081717] (-) TimerEvent: {}
+[19.183264] (-) TimerEvent: {}
+[19.286154] (-) TimerEvent: {}
+[19.387681] (-) TimerEvent: {}
+[19.488127] (-) TimerEvent: {}
+[19.588600] (-) TimerEvent: {}
+[19.689092] (-) TimerEvent: {}
+[19.789580] (-) TimerEvent: {}
+[19.890031] (-) TimerEvent: {}
+[19.990482] (-) TimerEvent: {}
+[20.092038] (-) TimerEvent: {}
+[20.192479] (-) TimerEvent: {}
+[20.295089] (-) TimerEvent: {}
+[20.395516] (-) TimerEvent: {}
+[20.501887] (-) TimerEvent: {}
+[20.602301] (-) TimerEvent: {}
+[20.702747] (-) TimerEvent: {}
+[20.804271] (-) TimerEvent: {}
+[20.905811] (-) TimerEvent: {}
+[21.007372] (-) TimerEvent: {}
+[21.107792] (-) TimerEvent: {}
+[21.209300] (-) TimerEvent: {}
+[21.309722] (-) TimerEvent: {}
+[21.411241] (-) TimerEvent: {}
+[21.511668] (-) TimerEvent: {}
+[21.613238] (-) TimerEvent: {}
+[21.714819] (-) TimerEvent: {}
+[21.815271] (-) TimerEvent: {}
+[21.915719] (-) TimerEvent: {}
+[22.016188] (-) TimerEvent: {}
+[22.117762] (-) TimerEvent: {}
+[22.218170] (-) TimerEvent: {}
+[22.319747] (-) TimerEvent: {}
+[22.420107] (-) TimerEvent: {}
+[22.521658] (-) TimerEvent: {}
+[22.623190] (-) TimerEvent: {}
+[22.723640] (-) TimerEvent: {}
+[22.824086] (-) TimerEvent: {}
+[22.924547] (-) TimerEvent: {}
+[23.025089] (-) TimerEvent: {}
+[23.126629] (-) TimerEvent: {}
+[23.227079] (-) TimerEvent: {}
+[23.327527] (-) TimerEvent: {}
+[23.429128] (-) TimerEvent: {}
+[23.530717] (-) TimerEvent: {}
+[23.632240] (-) TimerEvent: {}
+[23.732667] (-) TimerEvent: {}
+[23.834188] (-) TimerEvent: {}
+[23.934644] (-) TimerEvent: {}
+[24.036105] (-) TimerEvent: {}
+[24.137691] (-) TimerEvent: {}
+[24.238059] (-) TimerEvent: {}
+[24.338481] (-) TimerEvent: {}
+[24.438934] (-) TimerEvent: {}
+[24.539454] (-) TimerEvent: {}
+[24.639930] (-) TimerEvent: {}
+[24.740414] (-) TimerEvent: {}
+[24.764836] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[24.840587] (-) TimerEvent: {}
+[24.941061] (-) TimerEvent: {}
+[25.041497] (-) TimerEvent: {}
+[25.141955] (-) TimerEvent: {}
+[25.242415] (-) TimerEvent: {}
+[25.342836] (-) TimerEvent: {}
+[25.443302] (-) TimerEvent: {}
+[25.543782] (-) TimerEvent: {}
+[25.615571] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[25.638200] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.639591] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[25.643920] (-) TimerEvent: {}
+[25.658885] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/starchdev/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/starchdev/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'starchdev', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/starchdev/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': 'firefox', 'HOME': '/home/starchdev', 'OLDPWD': '/home/starchdev/ros2_ws/src/my_cpp_pkg', 'DESKTOP_SESSION': 'lxqt', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'COLCON_PREFIX_PATH': '/home/starchdev/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'starchdev', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'starchdev', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': '2', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_MENU_PREFIX': 'lxqt-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/starchdev/.local/share', 'XDG_CONFIG_HOME': '/home/starchdev/.config', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'lxqt', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_py_pkg:/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5c3796ae-16ca-47c6-881d-5a37138dfe0c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'lxqt', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/starchdev/ros2_ws/build/my_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-lxqt:/etc/xdg:/etc:/usr/share', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/lxqt:/usr/share/gnome:/home/starchdev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/starchdev/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/starchdev/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/starchdev/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[25.678127] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.681038] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/test_node\n'}
+[25.682143] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[25.685833] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""\n'}
+[25.686770] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[25.697340] (my_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/starchdev/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""\n'}
+[25.698136] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[25.698704] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[25.699185] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[25.699626] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[25.700153] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[25.700394] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[25.700813] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[25.701136] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[25.701433] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[25.701607] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[25.701782] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[25.702063] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[25.702240] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[25.702406] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[25.702572] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/starchdev/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[25.704914] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[25.736933] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[25.738152] (-) EventReactorShutdown: {}
